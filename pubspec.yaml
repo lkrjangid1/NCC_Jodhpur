@@ -1,0 +1,55 @@
+name: ncc
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^0.22.0
+  google_sign_in: ^5.0.7
+  intl: ^0.17.0
+  url_launcher: 6.0.20
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Sen
+      fonts: 
+        - asset: assets/fonts/SenRegular.ttf
+          weight: 400
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanLight.ttf
+          weight: 300
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+    - family: Outfit
+      fonts: 
+        - asset: assets/fonts/OutfitSemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
